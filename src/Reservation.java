@@ -73,8 +73,8 @@ public boolean equals(Object obj) {
     boolean roomEqual = Objects.equals(room, other.room);
     boolean guestEqual = Objects.equals(guest, other.guest);
     boolean checkInEqual = Objects.equals(checkIn, other.checkIn);
-    boolean checkOutEqual = Objects.equals(checkOut, other.checkOut);
-    return roomEqual && guestEqual && checkInEqual && checkOutEqual;
+   
+    return roomEqual && guestEqual && checkInEqual;
 
 }
 /**
@@ -84,6 +84,6 @@ public boolean equals(Object obj) {
      */
 @Override
 public int hashCode() {
-    return Objects.hash(room, guest, checkIn, checkOut);
+    return Objects.hash(room, guest, checkIn);
 }
 }
