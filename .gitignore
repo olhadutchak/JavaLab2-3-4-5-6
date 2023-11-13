@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Ignore Gradle project-specific cache directory
-=======
+
 # Compiled class file
 *.class
 
@@ -23,13 +21,12 @@
 *.rar
 .vscode/
 .code-workspace
->>>>>>> e61e1ad7237c893d34ddb392044dd94588a3b374
+
 .gradle
 
 # Ignore Gradle build output directory
 build
-<<<<<<< HEAD
-=======
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -37,4 +34,4 @@ replay_pid*
 
 # Додано правило для ігнорування папки "bin"
 /bin/
->>>>>>> e61e1ad7237c893d34ddb392044dd94588a3b374
+
