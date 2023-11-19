@@ -17,13 +17,7 @@ public class Main {
             .middleName("Smith")
             .build();
 
-         Guest person2 = new Guest.GuestBuilder()
-            .firstName("Mayk")
-            .lastName("Doesde")
-            .middleName("Orle")
-            .build();
-
-
+        
         RoomType room = new RoomType.RoomTypeBuilder()
             .number("101")
             .bedCount(2)

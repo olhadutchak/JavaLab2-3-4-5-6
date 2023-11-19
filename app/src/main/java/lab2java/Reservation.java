@@ -1,6 +1,7 @@
 package lab2java;
 
 import java.time.LocalDate;
+
 import java.util.Objects;
 
 public class Reservation {
@@ -88,4 +89,21 @@ public boolean equals(Object obj) {
 public int hashCode() {
     return Objects.hash(room, guest, checkIn);
 }
+public RoomType getRoom() {
+    return room;
+}
+
+public Guest getGuest() {
+    return guest;
+}
+
+public LocalDate getCheckIn() {
+    return checkIn;
+}
+
+public LocalDate getCheckOut() {
+    return checkOut;
+}
+
+
 }
