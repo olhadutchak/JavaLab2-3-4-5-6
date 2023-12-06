@@ -32,6 +32,7 @@ public class RoomType {
             return newRoomType;
         }
     }
+
 /**
      * Override the toString method to provide a string of the RoomType object.
      *
@@ -75,5 +76,13 @@ public boolean equals(Object obj) {
 public int hashCode() {
     return Objects.hash(number);
     }
-
+public int getBedCount(){
+    return bedCount;
+}
+public String getNumber(){
+    return number;
+}
+public RoomClass getType(){
+    return type;
+}
 }

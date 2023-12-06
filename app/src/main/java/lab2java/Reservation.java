@@ -106,4 +106,8 @@ public LocalDate getCheckOut() {
 }
 
 
+public boolean isRoomFree(LocalDate date) {
+    return date.isBefore(checkIn) || date.isAfter(checkOut);
+}
+
 }

@@ -17,17 +17,22 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
+    // Test dependencies
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
-    implementation 'com.google.code.gson:gson:2.8.8' // Додати Gson
-    implementation 'javax.xml.bind:jaxb-api:2.3.1' // Додати JAXB API
-    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1' // Додати JAXB Runtime
+
+    // JSON processing libraries
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+
+    // XML processing libraries
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+
+    // Other libraries
     implementation 'com.thoughtworks.xstream:xstream:1.4.16'
-
-
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0' 
-
-    // This dependency is used by the application.
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+    implementation 'org.hibernate.validator:hibernate-validator:6.2.0.Final'
+    implementation 'org.glassfish:javax.el:3.0.1-b11'
     implementation 'com.google.guava:guava:31.1-jre'
 
 }
